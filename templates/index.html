@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ferrer Estudio Notarial. Asesoramiento y servicios notariales con profesionalismo, confianza y compromiso.">
+
+    <title>Ferrer | Estudio Notarial</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- ========================================
+         PANTALLA DE BIENVENIDA
+    ========================================= -->
+
+    <section class="welcome-screen" id="welcome-screen">
+
+        <div class="welcome-background"></div>
+
+        <div class="welcome-decoration decoration-top">
+            <span>CONFIANZA</span>
+            <span>PROFESIONALISMO</span>
+        </div>
+
+        <div class="welcome-content">
+
+            <p class="welcome-eyebrow">ESTUDIO NOTARIAL</p>
+
+            <div class="welcome-logo">
+                <span class="logo-line"></span>
+                <span class="logo-initial">F</span>
+                <span class="logo-line"></span>
+            </div>
+
+            <h1>FERRER</h1>
+
+            <p class="welcome-subtitle">ESCRIBANÍA</p>
+
+            <div class="welcome-divider"></div>
+
+            <p class="welcome-description">
+                Seguridad jurídica y confianza en cada decisión.
+            </p>
+
+            <button class="discover-button" id="discover-button">
+                <span>AVERIGUAR MÁS</span>
+                <span class="discover-arrow">↓</span>
+            </button>
+
+        </div>
+
+        <div class="welcome-decoration decoration-bottom">
+            <span>COMPROMISO</span>
+            <span>SEGURIDAD JURÍDICA</span>
+        </div>
+
+        <p class="welcome-footer">FERRER © 2026 | ESTUDIO NOTARIAL</p>
+
+    </section>
+
+
+    <!-- ========================================
+         CONTENIDO PRINCIPAL
+    ========================================= -->
+
+    <div class="main-content" id="main-content">
+
+        <!-- NAVEGACIÓN -->
+
+        <header class="header">
+
+            <a href="#inicio" class="brand">
+                <span class="brand-initial">F</span>
+
+                <span class="brand-name">
+                    FERRER
+                    <small>ESTUDIO NOTARIAL</small>
+                </span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#documentacion">Documentación</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+            <a href="#contacto" class="header-button">
+                CONSULTAR
+            </a>
+
+        </header>
+
+
+        <!-- INICIO -->
+
+        <main>
+
+            <section class="hero-section" id="inicio">
+
+                <div class="hero-text">
+
+                    <p class="section-eyebrow">
+                        FERRER | ESTUDIO NOTARIAL
+                    </p>
+
+                    <h2>
+                        La confianza es la base de cada
+                        <span>decisión.</span>
+                    </h2>
+
+                    <p>
+                        Brindamos asesoramiento y soluciones notariales
+                        con responsabilidad, compromiso y atención
+                        personalizada.
+                    </p>
+
+                    <a href="#servicios" class="gold-button">
+                        CONOCER SERVICIOS
+                    </a>
+
+                </div>
+
+                <div class="hero-decoration">
+                    <img
+    src="{{ url_for('static', filename='img/ferrer.jpg') }}"
+    alt="Ferrer Estudio Notarial"
+    class="hero-image"
+>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- NOSOTROS -->
+
+            <section class="about-section" id="nosotros">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">QUIÉNES SOMOS</p>
+
+                    <h2>
+                        Un compromiso basado en la
+                        <span>confianza.</span>
+                    </h2>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+
+                        <p>
+                            En Ferrer Estudio Notarial entendemos que cada
+                            trámite representa una decisión importante
+                            en la vida de las personas.
+                        </p>
+
+                        <p>
+                            Por eso, trabajamos con responsabilidad,
+                            transparencia y profesionalismo, ofreciendo
+                            acompañamiento y asesoramiento en cada etapa
+                            del proceso notarial.
+                        </p>
+
+                    </div>
+
+                    <div class="about-values">
+
+                        <article class="value-item">
+                            <span>01</span>
+                            <h3>Confianza</h3>
+                            <p>Relaciones basadas en la transparencia y el respeto.</p>
+                        </article>
+
+                        <article class="value-item">
+                            <span>02</span>
+                            <h3>Compromiso</h3>
+                            <p>Responsabilidad en cada consulta y actuación.</p>
+                        </article>
+
+                        <article class="value-item">
+                            <span>03</span>
+                            <h3>Seguridad</h3>
+                            <p>Atención profesional y respaldo jurídico.</p>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- SERVICIOS -->
+
+            <section class="services-section" id="servicios">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">NUESTROS SERVICIOS</p>
+
+                    <h2>
+                        Soluciones notariales para cada
+                        <span>necesidad.</span>
+                    </h2>
+
+                    <p>
+                        Conocé algunas de las actuaciones y servicios
+                        que podemos ofrecerte.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <span class="service-number">01</span>
+                        <h3>Escrituras</h3>
+                        <p>
+                            Asesoramiento en operaciones inmobiliarias
+                            y documentación notarial.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">02</span>
+                        <h3>Certificaciones</h3>
+                        <p>
+                            Certificación de firmas y autenticación
+                            de documentación.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+                        <h3>Poderes</h3>
+                        <p>
+                            Instrumentos para otorgar facultades de
+                            representación a terceros.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">04</span>
+                        <h3>Autorizaciones</h3>
+                        <p>
+                            Asesoramiento y confección de autorizaciones
+                            y permisos correspondientes.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">05</span>
+                        <h3>Actas notariales</h3>
+                        <p>
+                            Instrumentación de hechos y situaciones
+                            conforme a la normativa aplicable.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">06</span>
+                        <h3>Trámites generales</h3>
+                        <p>
+                            Orientación sobre diferentes gestiones
+                            y procedimientos notariales.
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- DOCUMENTACIÓN -->
+
+            <section class="documents-section" id="documentacion">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">INFORMACIÓN ÚTIL</p>
+
+                    <h2>
+                        Prepará tu documentación
+                        <span>con anticipación.</span>
+                    </h2>
+
+                    <p>
+                        Cada trámite puede requerir documentación
+                        específica según sus características.
+                    </p>
+                </div>
+
+                <div class="documents-content">
+
+                    <article class="document-card">
+                        <h3>Identificación personal</h3>
+                        <p>
+                            Documento Nacional de Identidad vigente
+                            de las personas que intervienen.
+                        </p>
+                    </article>
+
+                    <article class="document-card">
+                        <h3>Documentación del trámite</h3>
+                        <p>
+                            Antecedentes, certificados y documentación
+                            relacionada con la gestión solicitada.
+                        </p>
+                    </article>
+
+                    <article class="document-card">
+                        <h3>Consulta previa</h3>
+                        <p>
+                            Recomendamos consultar antes de concurrir
+                            para conocer los requisitos específicos.
+                        </p>
+                    </article>
+
+                </div>
+
+                <p class="documents-note">
+                    La documentación requerida puede variar según
+                    el trámite y la situación particular.
+                </p>
+
+            </section>
+
+
+            <!-- CONTACTO -->
+
+            <section class="contact-section" id="contacto">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">ESTAMOS PARA AYUDARTE</p>
+
+                    <h2>
+                        Tu consulta comienza
+                        <span>con nosotros.</span>
+                    </h2>
+                </div>
+
+                <div class="contact-content">
+
+                    <div class="contact-information">
+
+                        <div class="contact-item">
+                            <span>UBICACIÓN</span>
+                            <p>Dirección a definir</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>HORARIOS</span>
+                            <p>Lunes a viernes | Horario a definir</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>TELÉFONO</span>
+                            <p>Número de contacto a definir</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>CORREO ELECTRÓNICO</span>
+                            <p>Correo a definir</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-action">
+
+                        <h3>¿Necesitás asesoramiento?</h3>
+
+                        <p>
+                            Comunicate con nosotros para recibir
+                            información sobre nuestros servicios
+                            y los requisitos de tu trámite.
+                        </p>
+
+                        <a href="#" class="gold-button">
+                            CONTACTAR POR WHATSAPP
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- PIE DE PÁGINA -->
+
+        <footer class="footer">
+
+            <div class="footer-brand">
+                <span>FERRER</span>
+                <small>ESTUDIO NOTARIAL</small>
+            </div>
+
+            <p>
+                Confianza, compromiso y seguridad jurídica.
+            </p>
+
+            <p class="footer-copy">
+                © 2026 Ferrer Estudio Notarial. Todos los derechos reservados.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+
+</body>
+</html>
